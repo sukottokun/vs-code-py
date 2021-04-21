@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+
+    <!-- Title -->
+    <title>{% block title %}{% endblock %}Minutos</title>
+
+    <!-- CSS files -->
+    <link rel="stylesheet" type="text/css"
+        href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0FBcERndUZ4VUo0YXVLQUVIa1AyQTBPSndYQXxBQ3Jtc0trRGVhOEZFNkhPWmJaVlBORVNCeUY1RUJOaVJoeUtMNWJFVjQwVUdTTTREMzNTNlJ3dXpoUmE1WmZRcUxsRkJueEFuUGpPek1PakNYYkJPeFVWVnVJeXBsSkduQ0tpSDVKMTlCMDdSVzVJZmt4Y25RVQ&q=https%3A%2F%2Fcdn.jsdelivr.net%2Fnpm%2Fbulma%400.9.1%2Fcss%2Fbulma.min.css"
+        </head>
+
+</html>
+
+<body>
+    <!-- Navbar -->
+    <div id="navbar-app">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="/" class="navbar-items"><strong>Minutos</strong></a>
+            </div>
+
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a href="#" class="navbar-item">Plans</a>
+
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a href="#" class="button is-success">Sign Up</a>
+                            <a href="#" class="button">Log In</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Main -->
+    <section class="section">
+        {% block content %}
+        {% endblock %}
+    </section>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="colums is-multiline">
+            <div class="column is-4">
+                <h2 class="subtitle">Menutos</h2>
+            </div>
+
+            <div class="column is-offset-6 is-2">
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="column is-12 has-text-centered">
+                <p>Copyright (c) 2021</p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
