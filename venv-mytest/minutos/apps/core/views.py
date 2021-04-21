@@ -1,6 +1,6 @@
 from django.shortcuts import render
-import os
 
-
+#
+# Views
 def frontpage(request):
     return render(request, "core/frontpage.html")
